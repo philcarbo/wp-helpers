@@ -84,7 +84,7 @@ function piklist_site_inventory()
   }
 
   // Widgets
-  $all_widgets = '';
+  $all_widgets = array();
   $sidebar_widgets = '';
   $current_sidebar = '';
   $active_widgets = get_option('sidebars_widgets');
